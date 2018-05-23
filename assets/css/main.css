@@ -1,0 +1,175 @@
+/** {
+	margin: 0px;
+	padding: 0px;
+}*/
+
+body{
+	font-family: Saira Extra Condensed;
+}
+
+#desc{
+	font-family: Saira Extra Condensed;
+	font-size: 28px;
+	color: white;
+}
+
+#aprendizado, #empresa, #compartilhar, #crescimento {
+	height: 150px;
+}
+
+#titulo1{
+	font-family: Saira Extra Condensed;
+	font-style: bold;
+	font-size: 50px;
+}
+
+.container-fluid{
+	padding-right: 0% !important;
+	padding-left: 0% !important;
+}
+.navbar a{
+	text-align: center;
+	color: white;
+}
+
+.navbar{
+	background-color: black;
+}
+
+.fonttype {
+	font-family: Open Sans;
+	font-style: unset;
+}
+
+#presentation{
+	background-image: url("../media/img/cap.svg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 75vh;
+	position: relative;
+	border-bottom: 15px solid white;
+}
+
+#titulo {
+	position: absolute;
+	font-family: Saira Extra Condensed; 
+	margin-top: 15%;
+	margin-left: 34%;
+	font-size: 100px;
+	font-style: initial;
+	border: 3px white;
+}
+
+/*#down1{
+	background-color: #1C3063;
+	height: 25vh;
+	background-image: url("../media/img/perfil.svg");
+	background-repeat: no-repeat;
+	background-position: center;
+}*/
+
+.contralize{
+	text-align: center;
+}
+
+#sobre{
+/*	background-image: url("../media/img/perfil.svg");*/
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: scroll; 
+	background-size: cover;
+	text-align: center;
+	height: 100vh;
+	background-color: #1C3063;
+}
+
+#objetivos{
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: scroll; 
+	background-size: cover;
+	text-align: center;
+	height: 100vh;
+	background-color: #122637;
+}
+
+#qualificacoes{
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: scroll; 
+	background-size: cover;
+	text-align: center;
+	height: 100vh;
+	background-color: #4040B5;
+}
+
+#transicaoimg{
+	background-image: url("../media/img/ceu.svg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: scroll; 
+	background-size: cover;
+	text-align: center;
+	height: 100vh;
+	background-color: white;
+}
+
+#frase {
+	color: white;
+	font-size: 225px;
+	position: absolute;
+	margin-top: 100px;
+	font-size: 15px;
+	text-align: center;
+}
+
+#experiencias{
+	background-image: url("../media/img/xps.svg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: scroll; 
+	background-size: cover;
+	text-align: center;
+	height: 100vh;
+	background-color: #FFFFFF;
+}
+
+#curiosidades{
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: scroll; 
+	background-size: cover;
+	text-align: center;
+	height: 100vh;
+	background-color: #1C3063;
+}
+
+#contato{
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: scroll; 
+	background-size: cover;
+	text-align: center;
+	height: 40vh;
+	background-color: #3075EE;
+}
+
+#seta {
+	position: absolute;
+	bottom: 1.8em;
+	width: 3em;
+}
+
+@media screen and (max-width: 767px){
+	#experiencias{
+	background-image: url("../media/img/xps2.svg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: scroll; 
+	background-size: cover;
+	text-align: center;
+	height: 100vh;
+	background-color: #FFFFFF;
+	}
+}
